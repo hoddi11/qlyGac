@@ -1,0 +1,16 @@
+D:\download55\QLgac\QLgac\bin\Debug\QLgac.exe.config
+D:\download55\QLgac\QLgac\bin\Debug\QLgac.exe
+D:\download55\QLgac\QLgac\bin\Debug\QLgac.pdb
+D:\download55\QLgac\QLgac\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\download55\QLgac\QLgac\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\download55\QLgac\QLgac\bin\Debug\Guna.UI2.dll
+D:\download55\QLgac\QLgac\bin\Debug\Bunifu.Licensing.dll
+D:\download55\QLgac\QLgac\obj\Debug\QLgac.csproj.AssemblyReference.cache
+D:\download55\QLgac\QLgac\obj\Debug\QLgac.Home.resources
+D:\download55\QLgac\QLgac\obj\Debug\QLgac.Properties.Resources.resources
+D:\download55\QLgac\QLgac\obj\Debug\QLgac.csproj.GenerateResource.cache
+D:\download55\QLgac\QLgac\obj\Debug\QLgac.exe.licenses
+D:\download55\QLgac\QLgac\obj\Debug\QLgac.csproj.CoreCompileInputs.cache
+D:\download55\QLgac\QLgac\obj\Debug\QLgac.csproj.CopyComplete
+D:\download55\QLgac\QLgac\obj\Debug\QLgac.exe
+D:\download55\QLgac\QLgac\obj\Debug\QLgac.pdb
