@@ -12,9 +12,17 @@ namespace QLgac
 {
     public partial class Home : Form
     {
+        string tk, mk;
         public Home()
         {
             InitializeComponent();
+        }
+        public Home(string tk, string mk)
+        {
+            InitializeComponent();
+            this.tk = tk;
+            this.mk = mk;
+
         }
 
         private int imgNum = 1;
