@@ -276,6 +276,12 @@
     <Compile Include="ThongTin.Designer.cs">
       <DependentUpon>ThongTin.cs</DependentUpon>
     </Compile>
+    <Compile Include="TinhHinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TinhHinh.Designer.cs">
+      <DependentUpon>TinhHinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserLogin.cs" />
     <Compile Include="VongGac.cs">
       <SubType>UserControl</SubType>
@@ -288,6 +294,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HomeD.resx">
       <DependentUpon>HomeD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LichGac.resx">
+      <DependentUpon>LichGac.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -308,6 +317,9 @@
     </Compile>
     <EmbeddedResource Include="ThongTin.resx">
       <DependentUpon>ThongTin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TinhHinh.resx">
+      <DependentUpon>TinhHinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VongGac.resx">
       <DependentUpon>VongGac.cs</DependentUpon>
