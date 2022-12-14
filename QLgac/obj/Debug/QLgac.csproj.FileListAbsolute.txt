@@ -192,3 +192,10 @@ D:\download55\qlyGac\QLgac\obj\Debug\QLgac.csproj.CopyComplete
 D:\download55\qlyGac\QLgac\obj\Debug\QLgac.exe
 D:\download55\qlyGac\QLgac\obj\Debug\QLgac.pdb
 D:\download55\qlyGac\QLgac\obj\Debug\QLgac.HomeD.resources
+C:\Users\Dell service\Source\Repos\qlyGac\QLgac\obj\Debug\QLgac.HomeD.resources
+C:\Users\Dell service\Source\Repos\qlyGac\QLgac\obj\Debug\QLgac.LichGac.resources
+C:\Users\Dell service\Source\Repos\qlyGac\QLgac\obj\Debug\QLgac.ThongTin.resources
+C:\Users\Dell service\Source\Repos\qlyGac\QLgac\obj\Debug\QLgac.TinhHinh.resources
+C:\Users\Dell service\Source\Repos\qlyGac\QLgac\obj\Debug\QLgac.VongGac.resources
+C:\Users\Dell service\Source\Repos\qlyGac\QLgac\obj\Debug\QLgac.Test.resources
+C:\Users\Dell service\source\repos\qlyGac\QLgac\obj\Debug\QLgac.VatChat.resources

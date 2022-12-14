@@ -12,6 +12,16 @@ namespace QLgac
 {
     public partial class ThongTin : UserControl
     {
+        private static ThongTin _instance;
+        public static ThongTin Instance
+        {
+            get
+            {
+                if (_instance == null)
+                    _instance = new ThongTin();
+                return _instance;
+            }
+        }
         public ThongTin()
         {
             InitializeComponent();

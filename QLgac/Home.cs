@@ -75,6 +75,14 @@ namespace QLgac
             changeCheck();
         }
 
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.ShowDialog();
+            this.Close();
+        }
+
         private void anh3_CheckedChanged(object sender, EventArgs e)
         {
             timer1.Stop();

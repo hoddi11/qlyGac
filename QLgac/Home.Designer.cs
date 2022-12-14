@@ -39,7 +39,6 @@ namespace QLgac
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tinhhinhBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -53,14 +52,14 @@ namespace QLgac
             this.anh1 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
             this.anh2 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.anhPicbox = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.anhPicbox = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel4.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel3.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -68,6 +67,7 @@ namespace QLgac
             this.tableLayoutPanel5.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.anhPicbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // loginBtn
@@ -87,7 +87,8 @@ namespace QLgac
             this.loginBtn.Name = "loginBtn";
             this.loginBtn.Size = new System.Drawing.Size(143, 48);
             this.loginBtn.TabIndex = 6;
-            this.loginBtn.Text = "Login";
+            this.loginBtn.Text = "Đăng nhập";
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // thongtinBtn
             // 
@@ -180,18 +181,6 @@ namespace QLgac
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(99, 121);
             this.tableLayoutPanel2.TabIndex = 0;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 21);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(93, 78);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 3;
-            this.guna2PictureBox1.TabStop = false;
             // 
             // guna2Panel3
             // 
@@ -405,6 +394,18 @@ namespace QLgac
             this.guna2Panel2.Size = new System.Drawing.Size(1176, 510);
             this.guna2Panel2.TabIndex = 4;
             // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this.anhPicbox;
+            this.guna2DragControl1.UseTransparentDrag = true;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 3000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // anhPicbox
             // 
             this.anhPicbox.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -418,17 +419,17 @@ namespace QLgac
             this.anhPicbox.TabIndex = 0;
             this.anhPicbox.TabStop = false;
             // 
-            // guna2DragControl1
+            // guna2PictureBox1
             // 
-            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl1.TargetControl = this.anhPicbox;
-            this.guna2DragControl1.UseTransparentDrag = true;
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 3000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 21);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(93, 78);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 3;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // Home
             // 
@@ -447,7 +448,6 @@ namespace QLgac
             this.tableLayoutPanel1.PerformLayout();
             this.guna2Panel5.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
@@ -455,6 +455,7 @@ namespace QLgac
             this.tableLayoutPanel5.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.anhPicbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

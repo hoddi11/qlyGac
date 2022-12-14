@@ -32,7 +32,7 @@ namespace QLgac
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeD));
-            this.loginBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.logoutBtn = new Guna.UI2.WinForms.Guna2Button();
             this.thongtinBtn = new Guna.UI2.WinForms.Guna2Button();
             this.logo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.logo2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -47,14 +47,7 @@ namespace QLgac
             this.lichgacBtn = new Guna.UI2.WinForms.Guna2Button();
             this.vatchatBtn = new Guna.UI2.WinForms.Guna2Button();
             this.vonggacBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.anh3 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
-            this.anh1 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
-            this.anh2 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.anhPicbox = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pnlLoad = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2Panel4.SuspendLayout();
@@ -64,31 +57,26 @@ namespace QLgac
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel3.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.anhPicbox)).BeginInit();
             this.SuspendLayout();
             // 
-            // loginBtn
+            // logoutBtn
             // 
-            this.loginBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
-            this.loginBtn.BorderRadius = 5;
-            this.loginBtn.BorderThickness = 2;
-            this.loginBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.loginBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.loginBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.loginBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.loginBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.loginBtn.FillColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.loginBtn.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(27)))), ((int)(((byte)(80)))));
-            this.loginBtn.Location = new System.Drawing.Point(766, 36);
-            this.loginBtn.Name = "loginBtn";
-            this.loginBtn.Size = new System.Drawing.Size(143, 48);
-            this.loginBtn.TabIndex = 6;
-            this.loginBtn.Text = "Tiểu đoàn 1";
+            this.logoutBtn.BorderColor = System.Drawing.Color.OrangeRed;
+            this.logoutBtn.BorderRadius = 5;
+            this.logoutBtn.BorderThickness = 2;
+            this.logoutBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.logoutBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.logoutBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.logoutBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.logoutBtn.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.logoutBtn.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(27)))), ((int)(((byte)(80)))));
+            this.logoutBtn.Location = new System.Drawing.Point(766, 36);
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.Size = new System.Drawing.Size(153, 48);
+            this.logoutBtn.TabIndex = 6;
+            this.logoutBtn.Text = "Đăng xuất";
+            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
             // 
             // thongtinBtn
             // 
@@ -106,6 +94,7 @@ namespace QLgac
             this.thongtinBtn.Size = new System.Drawing.Size(143, 48);
             this.thongtinBtn.TabIndex = 7;
             this.thongtinBtn.Text = "THÔNG TIN";
+            this.thongtinBtn.Click += new System.EventHandler(this.thongtinBtn_Click);
             // 
             // logo
             // 
@@ -213,9 +202,9 @@ namespace QLgac
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel3.Controls.Add(this.loginBtn, 6, 1);
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.09402F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.388889F));
+            this.tableLayoutPanel3.Controls.Add(this.logoutBtn, 6, 1);
             this.tableLayoutPanel3.Controls.Add(this.tinhhinhBtn, 4, 1);
             this.tableLayoutPanel3.Controls.Add(this.lichgacBtn, 3, 1);
             this.tableLayoutPanel3.Controls.Add(this.vatchatBtn, 2, 1);
@@ -247,6 +236,7 @@ namespace QLgac
             this.tinhhinhBtn.Size = new System.Drawing.Size(143, 48);
             this.tinhhinhBtn.TabIndex = 8;
             this.tinhhinhBtn.Text = "TÌNH HÌNH";
+            this.tinhhinhBtn.Click += new System.EventHandler(this.tinhhinhBtn_Click);
             // 
             // lichgacBtn
             // 
@@ -264,6 +254,7 @@ namespace QLgac
             this.lichgacBtn.Size = new System.Drawing.Size(143, 48);
             this.lichgacBtn.TabIndex = 9;
             this.lichgacBtn.Text = "LỊCH GÁC";
+            this.lichgacBtn.Click += new System.EventHandler(this.lichgacBtn_Click);
             // 
             // vatchatBtn
             // 
@@ -298,103 +289,19 @@ namespace QLgac
             this.vonggacBtn.Size = new System.Drawing.Size(143, 48);
             this.vonggacBtn.TabIndex = 11;
             this.vonggacBtn.Text = "VỌNG GÁC";
+            this.vonggacBtn.Click += new System.EventHandler(this.vonggacBtn_Click);
             // 
-            // guna2Panel1
+            // pnlLoad
             // 
-            this.guna2Panel1.Controls.Add(this.tableLayoutPanel4);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 121);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1182, 532);
-            this.guna2Panel1.TabIndex = 4;
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 1;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.guna2Panel2, 0, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 2;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 97.18045F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.819549F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1182, 532);
-            this.tableLayoutPanel4.TabIndex = 0;
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.ColumnCount = 5;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44F));
-            this.tableLayoutPanel5.Controls.Add(this.anh3, 3, 0);
-            this.tableLayoutPanel5.Controls.Add(this.anh1, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.anh2, 2, 0);
-            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 519);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1176, 10);
-            this.tableLayoutPanel5.TabIndex = 5;
-            // 
-            // anh3
-            // 
-            this.anh3.CheckedState.BorderThickness = 0;
-            this.anh3.Location = new System.Drawing.Point(614, 3);
-            this.anh3.Name = "anh3";
-            this.anh3.Size = new System.Drawing.Size(20, 4);
-            this.anh3.TabIndex = 0;
-            this.anh3.UncheckedState.BorderThickness = 0;
-            // 
-            // anh1
-            // 
-            this.anh1.CheckedState.BorderThickness = 0;
-            this.anh1.Location = new System.Drawing.Point(520, 3);
-            this.anh1.Name = "anh1";
-            this.anh1.Size = new System.Drawing.Size(20, 4);
-            this.anh1.TabIndex = 1;
-            this.anh1.UncheckedState.BorderThickness = 0;
-            // 
-            // anh2
-            // 
-            this.anh2.CheckedState.BorderThickness = 0;
-            this.anh2.Location = new System.Drawing.Point(567, 3);
-            this.anh2.Name = "anh2";
-            this.anh2.Size = new System.Drawing.Size(20, 4);
-            this.anh2.TabIndex = 2;
-            this.anh2.UncheckedState.BorderThickness = 0;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Controls.Add(this.anhPicbox);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel2.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2Panel2.Location = new System.Drawing.Point(3, 3);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1176, 510);
-            this.guna2Panel2.TabIndex = 4;
-            // 
-            // anhPicbox
-            // 
-            this.anhPicbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.anhPicbox.ErrorImage = null;
-            this.anhPicbox.ImageRotate = 0F;
-            this.anhPicbox.Location = new System.Drawing.Point(0, 0);
-            this.anhPicbox.Name = "anhPicbox";
-            this.anhPicbox.Size = new System.Drawing.Size(1176, 510);
-            this.anhPicbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.anhPicbox.TabIndex = 0;
-            this.anhPicbox.TabStop = false;
+            this.pnlLoad.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlLoad.Location = new System.Drawing.Point(0, 121);
+            this.pnlLoad.Name = "pnlLoad";
+            this.pnlLoad.Size = new System.Drawing.Size(1182, 532);
+            this.pnlLoad.TabIndex = 4;
             // 
             // guna2DragControl1
             // 
             this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl1.TargetControl = this.anhPicbox;
             this.guna2DragControl1.UseTransparentDrag = true;
             // 
             // HomeD
@@ -403,7 +310,7 @@ namespace QLgac
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1182, 653);
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.pnlLoad);
             this.Controls.Add(this.guna2Panel3);
             this.Name = "HomeD";
             this.Text = "Home";
@@ -417,11 +324,6 @@ namespace QLgac
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.guna2Panel1.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.guna2Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.anhPicbox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -429,7 +331,7 @@ namespace QLgac
         #endregion
         private Guna.UI2.WinForms.Guna2HtmlLabel logo;
         private Guna.UI2.WinForms.Guna2HtmlLabel logo2;
-        private Guna.UI2.WinForms.Guna2Button loginBtn;
+        private Guna.UI2.WinForms.Guna2Button logoutBtn;
         private Guna.UI2.WinForms.Guna2Button thongtinBtn;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
@@ -442,14 +344,7 @@ namespace QLgac
         private Guna.UI2.WinForms.Guna2Button lichgacBtn;
         private Guna.UI2.WinForms.Guna2Button vatchatBtn;
         private Guna.UI2.WinForms.Guna2Button vonggacBtn;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private Guna.UI2.WinForms.Guna2CustomRadioButton anh3;
-        private Guna.UI2.WinForms.Guna2CustomRadioButton anh1;
-        private Guna.UI2.WinForms.Guna2CustomRadioButton anh2;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2PictureBox anhPicbox;
+        private Guna.UI2.WinForms.Guna2Panel pnlLoad;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private System.Windows.Forms.Timer timer1;
     }

@@ -4,37 +4,37 @@ C:\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.Utils
 C:\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.XtraBars.v19.2.xml
 C:\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.XtraEditors.v19.2.xml
 C:\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.XtraGrid.v19.2.xml
-D:\download55\qlyGac\packages\Microsoft.Win32.Registry.5.0.0\lib\net461\Microsoft.Win32.Registry.xml
-D:\download55\qlyGac\packages\Microsoft.Win32.Registry.AccessControl.6.0.0\lib\net461\Microsoft.Win32.Registry.AccessControl.xml
-D:\download55\qlyGac\packages\Microsoft.Win32.SystemEvents.6.0.0\lib\net461\Microsoft.Win32.SystemEvents.xml
-D:\download55\qlyGac\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.xml
-D:\download55\qlyGac\packages\RestSharpSigned.105.2.3\lib\net46\RestSharp.xml
-D:\download55\qlyGac\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml
-D:\download55\qlyGac\packages\System.CodeDom.6.0.0\lib\net461\System.CodeDom.xml
-D:\download55\qlyGac\packages\System.Configuration.ConfigurationManager.6.0.0\lib\net461\System.Configuration.ConfigurationManager.xml
-D:\download55\qlyGac\packages\System.Data.Odbc.6.0.0\lib\net461\System.Data.Odbc.xml
-D:\download55\qlyGac\packages\System.Data.OleDb.6.0.0\lib\net461\System.Data.OleDb.xml
-D:\download55\qlyGac\packages\System.Data.SqlClient.4.8.3\lib\net461\System.Data.SqlClient.xml
-D:\download55\qlyGac\packages\System.Diagnostics.EventLog.6.0.0\lib\net461\System.Diagnostics.EventLog.xml
-D:\download55\qlyGac\packages\System.Diagnostics.PerformanceCounter.6.0.0\lib\net461\System.Diagnostics.PerformanceCounter.xml
-D:\download55\qlyGac\packages\System.Drawing.Common.6.0.0\lib\net461\System.Drawing.Common.xml
-D:\download55\qlyGac\packages\System.IO.FileSystem.AccessControl.5.0.0\lib\net461\System.IO.FileSystem.AccessControl.xml
-D:\download55\qlyGac\packages\System.IO.Packaging.6.0.0\lib\net461\System.IO.Packaging.xml
-D:\download55\qlyGac\packages\System.IO.Ports.6.0.0\lib\net461\System.IO.Ports.xml
-D:\download55\qlyGac\packages\System.Memory.4.5.4\lib\net461\System.Memory.xml
-D:\download55\qlyGac\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml
-D:\download55\qlyGac\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.xml
-D:\download55\qlyGac\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.xml
-D:\download55\qlyGac\packages\System.Security.Cryptography.Cng.5.0.0\lib\net47\System.Security.Cryptography.Cng.xml
-D:\download55\qlyGac\packages\System.Security.Cryptography.Pkcs.6.0.0\lib\net461\System.Security.Cryptography.Pkcs.xml
-D:\download55\qlyGac\packages\System.Security.Cryptography.ProtectedData.6.0.0\lib\net461\System.Security.Cryptography.ProtectedData.xml
-D:\download55\qlyGac\packages\System.Security.Cryptography.Xml.6.0.0\lib\net461\System.Security.Cryptography.Xml.xml
-D:\download55\qlyGac\packages\System.Security.Permissions.6.0.0\lib\net461\System.Security.Permissions.xml
-D:\download55\qlyGac\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.xml
-D:\download55\qlyGac\packages\System.ServiceModel.Syndication.6.0.0\lib\net461\System.ServiceModel.Syndication.xml
-D:\download55\qlyGac\packages\System.ServiceProcess.ServiceController.6.0.0\lib\net461\System.ServiceProcess.ServiceController.xml
-D:\download55\qlyGac\packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.xml
-D:\download55\qlyGac\packages\System.Threading.AccessControl.6.0.0\lib\net461\System.Threading.AccessControl.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\Microsoft.Win32.Registry.5.0.0\lib\net461\Microsoft.Win32.Registry.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\Microsoft.Win32.Registry.AccessControl.6.0.0\lib\net461\Microsoft.Win32.Registry.AccessControl.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\Microsoft.Win32.SystemEvents.6.0.0\lib\net461\Microsoft.Win32.SystemEvents.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\RestSharpSigned.105.2.3\lib\net46\RestSharp.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.CodeDom.6.0.0\lib\net461\System.CodeDom.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Configuration.ConfigurationManager.6.0.0\lib\net461\System.Configuration.ConfigurationManager.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Data.Odbc.6.0.0\lib\net461\System.Data.Odbc.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Data.OleDb.6.0.0\lib\net461\System.Data.OleDb.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Data.SqlClient.4.8.3\lib\net461\System.Data.SqlClient.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Diagnostics.EventLog.6.0.0\lib\net461\System.Diagnostics.EventLog.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Diagnostics.PerformanceCounter.6.0.0\lib\net461\System.Diagnostics.PerformanceCounter.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Drawing.Common.6.0.0\lib\net461\System.Drawing.Common.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.IO.FileSystem.AccessControl.5.0.0\lib\net461\System.IO.FileSystem.AccessControl.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.IO.Packaging.6.0.0\lib\net461\System.IO.Packaging.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.IO.Ports.6.0.0\lib\net461\System.IO.Ports.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Memory.4.5.4\lib\net461\System.Memory.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Security.Cryptography.Cng.5.0.0\lib\net47\System.Security.Cryptography.Cng.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Security.Cryptography.Pkcs.6.0.0\lib\net461\System.Security.Cryptography.Pkcs.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Security.Cryptography.ProtectedData.6.0.0\lib\net461\System.Security.Cryptography.ProtectedData.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Security.Cryptography.Xml.6.0.0\lib\net461\System.Security.Cryptography.Xml.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Security.Permissions.6.0.0\lib\net461\System.Security.Permissions.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.ServiceModel.Syndication.6.0.0\lib\net461\System.ServiceModel.Syndication.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.ServiceProcess.ServiceController.6.0.0\lib\net461\System.ServiceProcess.ServiceController.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.xml
+C:\Users\Dell service\source\repos\qlyGac\packages\System.Threading.AccessControl.6.0.0\lib\net461\System.Threading.AccessControl.xml
 C:\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.Pdf.v19.2.Core.xml
 C:\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.Sparkline.v19.2.Core.xml
 C:\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.XtraLayout.v19.2.xml
