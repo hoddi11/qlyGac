@@ -16,7 +16,7 @@ namespace QLgac
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HomeD());
+            Application.Run(new Login());
         }
     }
 }

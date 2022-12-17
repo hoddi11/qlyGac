@@ -199,3 +199,5 @@ C:\Users\Dell service\Source\Repos\qlyGac\QLgac\obj\Debug\QLgac.TinhHinh.resourc
 C:\Users\Dell service\Source\Repos\qlyGac\QLgac\obj\Debug\QLgac.VongGac.resources
 C:\Users\Dell service\Source\Repos\qlyGac\QLgac\obj\Debug\QLgac.Test.resources
 C:\Users\Dell service\source\repos\qlyGac\QLgac\obj\Debug\QLgac.VatChat.resources
+C:\Users\Dell service\source\repos\qlyGac\QLgac\bin\Debug\EntityFramework.xml
+C:\Users\Dell service\source\repos\qlyGac\QLgac\bin\Debug\EntityFramework.SqlServer.xml
